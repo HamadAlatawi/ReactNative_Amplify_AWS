@@ -4,8 +4,6 @@ import { useFavoriteMovie, useUnfavoriteMovie } from "../api/movies.ts";
 import styles from "../styles/styles.ts"
 import { MovieItemProps } from "../types/movie.ts";
 
-
-
 function MovieItem({ id, title, type, year, description, isFavorite: initialIsFavorite }: MovieItemProps) {
     const [isFavorite, setIsFavorite] = useState(initialIsFavorite);
     const [isLoading, setIsLoading] = useState(false);

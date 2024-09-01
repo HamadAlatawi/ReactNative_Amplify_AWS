@@ -8,7 +8,6 @@ import {
 } from 'react-native';
 import styles from "../../styles/styles.ts";
 
-
 type AccordionItemPros = PropsWithChildren<{
     title: string;
 }>;
